@@ -14,3 +14,7 @@ function add2(num1, num2) {
     return num1 + num2;
 }
 add2(example_enum_1.NumsEnum.Num1, example_enum_1.NumsEnum.Num2);
+function add3(nums) {
+    return nums.num1 + nums.num2;
+}
+add3({ num1: 1, num2: 2 });
