@@ -4,13 +4,13 @@ export class PersonClass {
     public age: boolean;
     private bankAccount: number;
 
-    //constructors
-    constructor(data){
+    // constructors
+    constructor(data) {
         this.firstName = data.firstName;
-    }
+    };
 
-    //functions
-    public example (){
+    // functions
+    public example() {
+    };
 
-    }
 }
